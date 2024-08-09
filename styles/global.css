@@ -19,3 +19,23 @@
   --text-md: 14px/175% var(--font-family);
   --text-sm: 12px/175% var(var--font-family);
 }
+
+a {
+  text-decoration: none; /* remove o underline do texto */
+  color: inherit; /* inherit = herdada, pega a propriedade definida no pai do elemento e atrubui a si, nesse caso, o body. */
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
